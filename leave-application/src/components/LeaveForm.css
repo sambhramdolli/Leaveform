@@ -1,0 +1,62 @@
+.page-container {
+  background: url('../assets/background.png') no-repeat center center fixed;
+  background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .leave-form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+  }
+
+  .required-field {
+    color: rgb(220, 20, 20);
+  }  
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  button:hover {
+    background-color: darkgreen;
+  }
+  
